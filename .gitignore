@@ -1,0 +1,16 @@
+# 编译生成的东西不要提交
+build/
+*.exe
+*.o
+*.obj
+
+# 自己的日程数据也不要提交（涉及隐私，而且每人不一样）
+data/tasks.txt
+data/tasks.txt.tmp
+
+# 编辑器 / 系统的临时文件
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
